@@ -14,6 +14,8 @@ module.exports = {
   // add your custom rules here
   //it is base on https://github.com/vuejs/eslint-config-vue
   rules: {
+    "no-tabs": "off",
+    "quotes": [1, "single"], //引号类型 `` "" ''
     "vue/max-attributes-per-line": [2, {
       "singleline": 10,
       "multiline": {

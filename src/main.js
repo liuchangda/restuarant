@@ -28,6 +28,9 @@ if (process.env.NODE_ENV === 'production') {
   mockXHR()
 }
 
+// lc
+import '@/mock/mock.js'
+
 // set ElementUI lang to EN
 Vue.use(ElementUI, { locale })
 

@@ -6,7 +6,7 @@
         <h3 class="title">Login Form</h3>
       </div>
 
-      <el-form-item prop="username">  
+      <el-form-item prop="username">
         <span class="svg-container">
           <svg-icon icon-class="user" />
         </span>
@@ -73,7 +73,7 @@ export default {
       }
     }
     return {
-      //登陆表单的数据
+      // 登陆表单的数据
       loginForm: {
         username: 'admin',
         password: '111111'
